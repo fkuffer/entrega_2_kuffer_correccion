@@ -1,0 +1,178 @@
+body{
+    
+    background-color: white(231, 240, 237);
+    font-family: sans-serif;
+    
+}
+
+
+h1{
+    margin-left: 15px;
+    
+    font-size: 25px;
+
+}
+h3{
+    font-size: 24px;
+    margin-left: 40px;
+
+    
+}
+h5{
+padding-right: 25px;
+padding-left: 8px;
+font-size: 20px;
+}
+
+a{
+    font-size: 20px;
+    color: white;
+
+}
+
+
+.texto-eficiencia{
+   
+    font-size: 35px;
+    padding: auto;
+
+}
+
+.titulo-general  {
+    
+    font-size: 1rem;
+    
+    padding-bottom: 5px;
+}
+
+
+
+.borde{
+    box-shadow: 5px 5px rgba(44, 43, 43, 0.089);
+    
+}
+
+ 
+.imagen-logo{
+    
+    width: 90px;
+    height: 75px;
+}
+
+
+.dato{
+    padding-left: 20px;
+}
+.icono{
+    display: flex;
+    margin-left: 15px;
+}
+#contactenosTexto{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 15px;
+}
+
+/* Animacion fotos tarjetas */
+
+.img-tarjeta{
+    width: 29rem;
+    height: 15rem;
+    transition: height 1s, width 1s;
+}
+
+.img-tarjeta:hover {
+    width: 29.2rem;
+    height: 15.2rem;
+    
+
+}
+
+@media (max-width: 1000px) {
+
+.nuestros-clientes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+
+
+}
+
+.mapa{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.altura{
+    height: 100px;
+    width: 100%;
+    
+    
+}
+
+.titulo-general{
+    font-size: 1rem;
+    
+}
+
+}
+
+
+/* CSS NUSTROS PRODUCTOS */
+
+.titulo_nuestros_productos{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.servicios{
+    margin-left: 35px;
+}
+.nuestros_servicios{
+    margin-top: 35px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: black;
+    
+}
+.automacion{
+    margin-top: 45px;
+    margin-bottom: 35px;
+    font-size: 25px;
+    color: black;
+    
+}
+/* Animacion fotos productos */
+
+.img-productos{
+    width: 15rem;
+    height: 12rem;
+    transition: height 1s, width 1s;
+}
+
+.img-productos:hover {
+    width: 16rem;
+    height: 13rem;
+    
+
+}
+
+/* Estilos Know how */
+
+.saber{
+    margin-left: 40px;
+    margin-bottom: 30px;
+
+}
+
+ .fondo-footer{
+
+    height: 80px;
+    margin-top: 40px;
+} 
+
