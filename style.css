@@ -1,9 +1,8 @@
 body {
   background-color: white(231, 240, 237);
   font-family: sans-serif;
-  background-color: aquamarine;
+  background-color: rgb(179, 235, 235);
 }
-
 
 /* nav */
 .titulo-general {
@@ -15,6 +14,16 @@ body {
 .imagen-logo {
   width: 90px;
   height: 75px;
+}
+
+.background-nav {
+  /* background-color: rgb(68, 160, 114); */
+  background-color: aqua;
+}
+
+.borde {
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 /* footer */
@@ -35,6 +44,10 @@ body {
   margin-right: 15px;
 }
 
+.background-footer {
+  background-color: aqua;
+}
+
 .fondo-footer {
   height: 80px;
   margin-top: 40px;
@@ -45,6 +58,11 @@ h1 {
   font-size: 25px;
 }
 
+/* .background-nav{
+
+    background-color: black;
+}
+ */
 /* titulos index section */
 .texto-eficiencia {
   font-size: 35px;
